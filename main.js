@@ -55,7 +55,7 @@ gsap.from("#dots path",{opacity:0,stagger:1,
 
 gsap.from("#connection-lines path",{
     opacity:0,
-    stagger:2,
+    stagger:3,
     scrollTrigger:{
         trigger:".connections",
         start:"top top",
@@ -87,7 +87,7 @@ gsap.from("#stars path",{
     scrollTrigger:{
         trigger:".spaceship",
         start:"top top",
-        markers:true
+       
     }
 })
 
