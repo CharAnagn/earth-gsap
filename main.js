@@ -87,6 +87,9 @@ gsap.from("#stars path",{
     scrollTrigger:{
         trigger:".spaceship",
         start:"top top",
+        end:"bottom center",
+       
+        
        
     }
 })
